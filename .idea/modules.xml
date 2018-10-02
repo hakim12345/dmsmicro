@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/dmsServer/dmsServer.iml" filepath="$PROJECT_DIR$/dmsServer/dmsServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dmsconsumer/dmsconsumer.iml" filepath="$PROJECT_DIR$/dmsconsumer/dmsconsumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dmsmicro.iml" filepath="$PROJECT_DIR$/dmsmicro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dmsproducer/dmsproducer.iml" filepath="$PROJECT_DIR$/dmsproducer/dmsproducer.iml" />
+    </modules>
+  </component>
+</project>

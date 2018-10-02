@@ -27,4 +27,9 @@ public class StubUserRepository implements UserRepository{
     public List<User> getUserList() {
         return new ArrayList<User>(profileData.values());
     }
+
+    public User getUserById(String userId)
+    {
+        return profileData.get(userId);
+    }
 }

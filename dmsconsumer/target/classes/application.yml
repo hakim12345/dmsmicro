@@ -14,7 +14,11 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:1111/eureka/
 
+# HTTP Server (Tomcat) Port
+server:
+  port: 8083
+
 # Disable Spring Boot's "Whitelabel" default error page, so we can use our own
 error:
   whitelabel:
-    enabled:  false
+    enabled: false

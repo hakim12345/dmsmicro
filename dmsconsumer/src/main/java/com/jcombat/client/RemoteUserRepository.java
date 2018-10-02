@@ -24,4 +24,11 @@ public class RemoteUserRepository implements UserRepository {
         User[] users = restTemplate.getForObject(serviceUrl + "/profilesUser", User[].class);
         return Arrays.asList(users);
     }
+
+
+    @Override
+    public User getUser(String userId) {
+        User user =restTemplate.getForObject(serviceUrl+"/userDetail/{id}", User.class);
+        return user;
+    }
 }
