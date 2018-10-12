@@ -16,7 +16,7 @@
             memoryStoreEvictionPolicy="LRU" />
             
             
-     <cache name="com.dms.recieveClient"
+     <cache name="com.dms.recieveClient.OBJECT_CACHE"
            maxElementsInMemory="10000"
            eternal="false"
            overflowToDisk="false"
