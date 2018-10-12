@@ -5,7 +5,7 @@ import com.dms.recieveClient.common.MyOperation;
 import javax.servlet.http.HttpSession;
 import java.util.Map;
 
-public interface MailService extends MyOperation {
+public interface MailService{
 
-    Map<String, Object> sendMail(String tenantId, final HttpSession session);
+    Map<String , Object> sendMail(String tenantId, final HttpSession session);
 }

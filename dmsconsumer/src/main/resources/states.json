@@ -1,0 +1,138 @@
+[
+    {
+        "state": "Delhi",
+        "id": 1
+    },
+    {
+        "state": "Bihar",
+        "id": 2
+    },
+    {
+        "state": "Gujarat",
+        "id": 3
+    },
+    {
+        "state": "Assam",
+        "id": 4
+    },
+    {
+        "state": "Telangana",
+        "id": 5
+    },
+    {
+        "state": "Madhya Pradesh",
+        "id": 6
+    },
+    {
+        "state": "Andhra Pradesh",
+        "id": 7
+    },
+    {
+        "state": "Jammu and Kashmir",
+        "id": 8
+    },
+    {
+        "state": "Tamil Nadu",
+        "id": 9
+    },
+    {
+        "state": "Dadra and Nagar Haveli",
+        "id": 10
+    },
+    {
+        "state": "Puducherry",
+        "id": 11
+    },
+    {
+        "state": "Chhattisgarh",
+        "id": 12
+    },
+    {
+        "state": "Karnataka",
+        "id": 13
+    },
+    {
+        "state": "Mizoram",
+        "id": 14
+    },
+    {
+        "state": "Andaman and Nicobar Islands",
+        "id": 15
+    },
+    {
+        "state": "Goa",
+        "id": 16
+    },
+    {
+        "state": "Odisha",
+        "id": 17
+    },
+    {
+        "state": "West Bengal",
+        "id": 18
+    },
+    {
+        "state": "Maharashtra",
+        "id": 19
+    },
+    {
+        "state": "Kerala",
+        "id": 20
+    },
+    {
+        "state": "Himachal Praddesh",
+        "id": 21
+    },
+    {
+        "state": "Chandigarh",
+        "id": 22
+    },
+    {
+        "state": "Punjab",
+        "id": 23
+    },
+    {
+        "state": "Meghalaya",
+        "id": 24
+    },
+    {
+        "state": "Rajasthan",
+        "id": 25
+    },
+    {
+        "state": "Uttar Pradesh",
+        "id": 26
+    },
+    {
+        "state": "Tripura",
+        "id": 27
+    },
+    {
+        "state": "Jharkhand",
+        "id": 28
+    },
+    {
+        "state": "Haryana",
+        "id": 29
+    },
+    {
+        "state": "Uttarakhand",
+        "id": 30
+    },
+    {
+        "state": "Himachal Pradesh",
+        "id": 31
+    },
+    {
+        "state": "Arunachal Pradesh",
+        "id": 32
+    },
+    {
+        "state": "Manipur",
+        "id": 33
+    },
+    {
+        "state": "Nagaland",
+        "id": 34
+    }
+]
