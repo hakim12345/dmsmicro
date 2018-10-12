@@ -44,6 +44,7 @@ com/dms/recieveClient/service/impl/TenantServiceImpl.class
 com/dms/recieveClient/email/HtmlEmailSenderImpl$1$1.class
 com/dms/recieveClient/email/HtmlEmailSenderImpl$1.class
 com/dms/recieveClient/common/AbstractController.class
+com/dms/recieveClient/configuration/CoreApplicationConfiguration.class
 com/dms/recieveClient/controller/ProfileController.class
 com/dms/recieveClient/myService/CarService.class
 com/dms/recieveClient/constants/Constants.class

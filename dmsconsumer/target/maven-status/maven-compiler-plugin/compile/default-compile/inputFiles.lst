@@ -17,6 +17,7 @@
 /home/user/Md Hakim Ansari/MicroServices/My-Git/dmsmicro/dmsconsumer/src/main/java/com/dms/recieveClient/configuration/DBConfig.java
 /home/user/Md Hakim Ansari/MicroServices/My-Git/dmsmicro/dmsconsumer/src/main/java/com/dms/recieveClient/config/JPAConfig.java
 /home/user/Md Hakim Ansari/MicroServices/My-Git/dmsmicro/dmsconsumer/src/main/java/com/dms/recieveClient/generic/DMSEntityServiceImpl.java
+/home/user/Md Hakim Ansari/MicroServices/My-Git/dmsmicro/dmsconsumer/src/main/java/com/dms/recieveClient/configuration/CoreApplicationConfiguration.java
 /home/user/Md Hakim Ansari/MicroServices/My-Git/dmsmicro/dmsconsumer/src/main/java/com/dms/recieveClient/service/impl/TenantServiceImpl.java
 /home/user/Md Hakim Ansari/MicroServices/My-Git/dmsmicro/dmsconsumer/src/main/java/com/dms/recieveClient/repository/EmailLogRepository.java
 /home/user/Md Hakim Ansari/MicroServices/My-Git/dmsmicro/dmsconsumer/src/main/java/com/dms/recieveClient/model/TravelOperator.java
