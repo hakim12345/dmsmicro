@@ -3,12 +3,11 @@ package com.dms.recieveClient.common;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 
-import javax.inject.Inject;
 import javax.transaction.Transactional;
 import java.util.Map;
 
 @Transactional
-public abstract class BaseAbstract {
+public  class BaseAbstract {
 
 
     public void addSuccess(Map<String,Object> resMap){

@@ -1,7 +1,6 @@
 package com.dms.recieveClient.service.impl;
 
 import com.dms.recieveClient.common.MyAbstractOperation;
-import com.dms.recieveClient.constants.Constants;
 import com.dms.recieveClient.model.TravelOperator;
 import com.dms.recieveClient.service.MailService;
 import com.dms.recieveClient.service.TenantService;
