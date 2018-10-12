@@ -1,9 +1,5 @@
 com/jcombat/profile/StubProfileRepository.class
-com/jcombat/profile/UserController.class
 com/jcombat/profile/Profile.class
-com/jcombat/profile/UserRepository.class
-com/jcombat/profile/User.class
-com/jcombat/profile/ProfileMicroserviceServerApplication.class
 com/jcombat/profile/ProfileController.class
 com/jcombat/profile/ProfileRepository.class
-com/jcombat/profile/StubUserRepository.class
+com/jcombat/profile/ProfileMicroserviceServerApplication.class
