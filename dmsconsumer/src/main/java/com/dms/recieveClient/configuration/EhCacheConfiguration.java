@@ -10,10 +10,10 @@ import org.springframework.core.io.ClassPathResource;
 @Configuration
 public class EhCacheConfiguration {
 
-	/*@Bean
+	@Bean
 	public EhCacheCacheManager ehCacheCacheManager() {
 		return new EhCacheCacheManager(ehCacheManagerFactoryBean().getObject());
-	}*/
+	}
 
 	@Bean
 	public EhCacheManagerFactoryBean ehCacheManagerFactoryBean() {
@@ -23,8 +23,9 @@ public class EhCacheConfiguration {
 		return ehCacheManagerFactoryBean;
 	}
 
-	/*@Bean(name = "serviceCache")
+	@Bean(name = "serviceCache")
 	public Cache serviceCache() {
 		return ehCacheCacheManager().getCache("com.dms.recieveClient.OBJECT_CACHE");
-	}*/
+	}
+
 }

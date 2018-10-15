@@ -22,7 +22,7 @@ public class TxAdviceInterceptor {
 
 	private static final String TX_METHOD_NAME = "*";
 	// private static final int TX_METHOD_TIMEOUT = 3;
-	private static final String AOP_POINTCUT_EXPRESSION = "this(com.emxcel.dms.core.business.services.common.generic.TransactionalAspectAwareService)";
+	private static final String AOP_POINTCUT_EXPRESSION = "this(com.dms.recieveClient.generic.TransactionalAspectAwareService)";
 
 	/**
 	 * PlatformTransactionManager.
@@ -62,11 +62,11 @@ public class TxAdviceInterceptor {
 	/**
 	 * @return Advisor.
 	 */
-	@Bean
+	/*@Bean
 	public Advisor txAdviceAdvisor() {
 		AspectJExpressionPointcut pointcut = new AspectJExpressionPointcut();
 		pointcut.setExpression(AOP_POINTCUT_EXPRESSION);
 		return new DefaultPointcutAdvisor(pointcut, txAdvice());
-	}
+	}*/
 
 }

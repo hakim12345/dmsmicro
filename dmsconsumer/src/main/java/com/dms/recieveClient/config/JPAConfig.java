@@ -1,5 +1,7 @@
 package com.dms.recieveClient.config;
 
+import javax.sql.DataSource;
+
 import org.hibernate.jpa.HibernatePersistenceProvider;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -12,15 +14,13 @@ import org.springframework.instrument.classloading.InstrumentationLoadTimeWeaver
 import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
 import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
-
-import javax.sql.DataSource;
 import java.util.HashMap;
 import java.util.Map;
 
 @Configuration
 @EnableAutoConfiguration
-@EntityScan(basePackages = {"com.emxcel.dms.core.model"})
-@EnableJpaRepositories("com.emxcel.dms.core.business.repositories")
+@EntityScan(basePackages = {"com.dms.recieveClient.model"})
+@EnableJpaRepositories("com.dms.recieveClient.repository")
 public class JPAConfig {
 
     @Autowired
@@ -34,7 +34,7 @@ public class JPAConfig {
         LocalContainerEntityManagerFactoryBean factory = new LocalContainerEntityManagerFactoryBean();
 
         factory.setPersistenceProviderClass(HibernatePersistenceProvider.class);
-        factory.setPackagesToScan("com.emxcel.dms.core.model");
+        factory.setPackagesToScan("com.dms.recieveClient.model");
         factory.setDataSource(dataSource);
 
         HibernateJpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
